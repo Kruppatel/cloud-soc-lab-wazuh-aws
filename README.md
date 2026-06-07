@@ -86,8 +86,7 @@ Every alert was automatically mapped to multiple compliance frameworks by Wazuh:
 | ![wazuh-event-detail-forensics](screenshots/wazuh-event-detail-forensics.png) | Detailed forensic event view — agent IP, Windows Event ID 4634, compliance fields, timestamp |
 | ![wazuh-event-compliance-mapping](screenshots/wazuh-event-compliance-mapping.png) | Event detail showing full compliance mapping: GDPR IV_32.2, HIPAA 164.312.b, NIST AC.7/AU.14, PCI-DSS 10.2.5, TSC CC6.8/CC7.2/CC7.3 |
 | ![wazuh-compliance-frameworks](screenshots/wazuh-compliance-frameworks.png) | Compliance frameworks view |
-| ![wazuh-mitre-events](screenshots/wazuh-mitre-events.png) | Security events filtered to show 594 hits with alert level spike during attack window |
-| ![wazuh-mitre-attack-overview](screenshots/wazuh-mitre-attack-overview.png) | Security events dashboard filtered to `windows-victim` agent with MITRE ATT&CK overview |
+| ![wazuh-mitre-events](screenshots/wazuh-mitre-events.png) | Security events filtered to show 599 hits with alert level spike during attack window |
 | ![wazuh-mitre-attack-full-dashboard](screenshots/wazuh-mitre-attack-full-dashboard.png) | Full MITRE ATT&CK dashboard — alerts over time, top tactics, attacks by technique, top tactics by agent |
 
 ## Author
