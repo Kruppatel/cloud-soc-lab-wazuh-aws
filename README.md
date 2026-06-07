@@ -77,18 +77,18 @@ Every alert was automatically mapped to multiple compliance frameworks by Wazuh:
 
 | Screenshot | Description |
 |---|---|
-| `ec2-wazuh-server-running.png` | AWS EC2 instance (`i-0050711e9a8189663`) running in us-east-2, public IP 3.23.100.47 |
-| `wazuh-windows-agent-connected.png` | Windows 11 Pro agent (`windows-victim`, 192.168.64.10) connected and active — 100% agent coverage |
-| `wazuh-security-events-alerts.png` | Security events dashboard showing 599 total alerts, 20 auth failures, 52 auth successes |
-| `wazuh-brute-force-detected.png` | MITRE ATT&CK security alerts table — T1078 technique mapped across multiple events |
-| `wazuh-logon-failure-events.png` | Live event feed showing repeated logon failures (rule 60122, level 5) and logon successes from `windows-victim` |
-| `wazuh-event-detail-forensics.png` | Detailed forensic event view — agent IP, Windows Event ID 4634, compliance fields, timestamp |
-| `wazuh-event-compliance-mapping.png` | Event detail showing full compliance mapping: GDPR IV_32.2, HIPAA 164.312.b, NIST AC.7/AU.14, PCI-DSS 10.2.5, TSC CC6.8/CC7.2/CC7.3 |
-| `wazuh-mitre-events.png` | Security events filtered to show 594 hits with alert level spike during attack window |
-| `wazuh-mitre-attack-overview.png` | Security events dashboard filtered to `windows-victim` agent with MITRE ATT&CK overview |
-| `wazuh-mitre-attack-full-dashboard.png` | Full MITRE ATT&CK dashboard — alerts over time, top tactics, attacks by technique, top tactics by agent |
-| `wazuh-compliance-frameworks.png` | Compliance frameworks view |
-| `nmap-scan-results.png` | Nmap scan output from Kali Linux — ports 135, 139, 445 discovered, OS fingerprinted as Windows |
+| ![ec2-wazuh-server-running](screenshots/ec2-wazuh-server-running.png) | AWS EC2 instance (`i-0050711e9a8189663`) running in us-east-2, public IP 3.23.100.47 |
+| ![wazuh-windows-agent-connected](screenshots/wazuh-windows-agent-connected.png) | Windows 11 Pro agent (`windows-victim`, 192.168.64.10) connected and active — 100% agent coverage |
+| ![wazuh-security-events-alerts](screenshots/wazuh-security-events-alerts.png) | Security events dashboard showing 599 total alerts, 20 auth failures, 52 auth successes |
+| ![wazuh-brute-force-detected](screenshots/wazuh-brute-force-detected.png) | MITRE ATT&CK security alerts table — T1078 technique mapped across multiple events |
+| ![wazuh-logon-failure-events](screenshots/wazuh-logon-failure-events.png) | Live event feed showing repeated logon failures (rule 60122, level 5) and logon successes from `windows-victim` |
+| ![wazuh-event-detail-forensics](screenshots/wazuh-event-detail-forensics.png) | Detailed forensic event view — agent IP, Windows Event ID 4634, compliance fields, timestamp |
+| ![wazuh-event-compliance-mapping](screenshots/wazuh-event-compliance-mapping.png) | Event detail showing full compliance mapping: GDPR IV_32.2, HIPAA 164.312.b, NIST AC.7/AU.14, PCI-DSS 10.2.5, TSC CC6.8/CC7.2/CC7.3 |
+| ![wazuh-mitre-events](screenshots/wazuh-mitre-events.png) | Security events filtered to show 594 hits with alert level spike during attack window |
+| ![wazuh-mitre-attack-overview](screenshots/wazuh-mitre-attack-overview.png) | Security events dashboard filtered to `windows-victim` agent with MITRE ATT&CK overview |
+| ![wazuh-mitre-attack-full-dashboard](screenshots/wazuh-mitre-attack-full-dashboard.png) | Full MITRE ATT&CK dashboard — alerts over time, top tactics, attacks by technique, top tactics by agent |
+| ![wazuh-compliance-frameworks](screenshots/wazuh-compliance-frameworks.png) | Compliance frameworks view |
+| ![nmap-scan-results](screenshots/nmap-scan-results.png) | Nmap scan output from Kali Linux — ports 135, 139, 445 discovered, OS fingerprinted as Windows |
 
 ## Author
 
