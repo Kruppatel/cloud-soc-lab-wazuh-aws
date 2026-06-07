@@ -79,7 +79,7 @@ Every alert was automatically mapped to multiple compliance frameworks by Wazuh:
 |---|---|
 | ![ec2-wazuh-server-running](screenshots/ec2-wazuh-server-running.png) | AWS EC2 instance (`i-0050711e9a8189663`) running in us-east-2, public IP 3.23.100.47 |
 | ![wazuh-windows-agent-connected](screenshots/wazuh-windows-agent-connected.png) | Windows 11 Pro agent (`windows-victim`, 192.168.64.10) connected and active — 100% agent coverage |
-| ![wazuh-security-events-alerts](screenshots/wazuh-security-events-alerts.png) | Security events dashboard showing 599 total alerts, 20 auth failures, 52 auth successes |
+| ![wazuh-security-event-dashboard](screenshots/wazuh-security-event-dashboard.png) | Security events dashboard showing 599 total alerts, 20 auth failures, 52 auth successes |
 | ![wazuh-brute-force-detected](screenshots/wazuh-brute-force-detected.png) | MITRE ATT&CK security alerts table — T1078 technique mapped across multiple events |
 | ![wazuh-logon-failure-events](screenshots/wazuh-logon-failure-events.png) | Live event feed showing repeated logon failures (rule 60122, level 5) and logon successes from `windows-victim` |
 | ![wazuh-event-detail-forensics](screenshots/wazuh-event-detail-forensics.png) | Detailed forensic event view — agent IP, Windows Event ID 4634, compliance fields, timestamp |
