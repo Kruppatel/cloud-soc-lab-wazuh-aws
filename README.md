@@ -9,7 +9,7 @@ Built a fully functional cloud-based Security Operations Center (SOC) lab on AWS
 ```
 Local Mac (UTM)
 ├── Kali Linux VM (192.168.64.3)     — Attacker machine
-└── Windows 11 VM (192.168.64.10)   — Victim machine with Wazuh Agent
+└── Windows 11 VM (192.168.64.10)    — Victim machine with Wazuh Agent
 
 AWS Cloud
 └── Ubuntu EC2 t3.medium (us-east-2)
