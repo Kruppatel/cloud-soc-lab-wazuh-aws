@@ -1,0 +1,58 @@
+<!--
+  Wazuh Agent Configuration
+  Deployed on: Windows 11 Pro (windows-victim)
+  Wazuh Manager: AWS EC2 t3.medium
+-->
+
+<ossec_config>
+  <client>
+    <server>
+      <address>3.23.100.47</address>
+      <port>1514</port>
+      <protocol>tcp</protocol>
+    </server>
+    <enrollment>
+      <enabled>yes</enabled>
+      <agent_name>windows-victim</agent_name>
+    </enrollment>
+  </client>
+
+  <logging>
+    <log_format>plain</log_format>
+  </logging>
+
+  <localfile>
+    <log_format>eventchannel</log_format>
+    <location>Security</location>
+  </localfile>
+
+  <localfile>
+    <log_format>eventchannel</log_format>
+    <location>System</location>
+  </localfile>
+
+  <localfile>
+    <log_format>eventchannel</log_format>
+    <location>Application</location>
+  </localfile>
+
+  <sca>
+    <enabled>yes</enabled>
+    <scan_on_start>yes</scan_on_start>
+    <interval>12h</interval>
+  </sca>
+
+  <rootcheck>
+    <disabled>no</disabled>
+  </rootcheck>
+
+  <wodle name="syscollector">
+    <disabled>no</disabled>
+    <interval>1h</interval>
+    <os>yes</os>
+    <network>yes</network>
+    <packages>yes</packages>
+    <ports all="no">yes</ports>
+    <processes>yes</processes>
+  </wodle>
+</ossec_config>
